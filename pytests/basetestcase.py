@@ -234,7 +234,7 @@ class BaseTestCase(unittest.TestCase):
 
                     cluster_util.change_env_variables()
                     cluster_util.change_checkpoint_params()
-                    cluster_util.add_all_nodes_then_rebalance(cluster.servers[1:])
+                    #cluster_util.add_all_nodes_then_rebalance(cluster.servers[1:])
                     self.log.info("{0} initialized".format(cluster))
             else:
                 self.quota = ""
